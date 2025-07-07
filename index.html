@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phone code</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper-header">
+      <h1>Paste the phone number</h1>
+    </div>
+
+    <div class="wrapper-content">
+      <i class="fa-solid fa-user"></i>
+      <input
+        type="text"
+        class="select"
+        placeholder="Enter phone number"
+        id="phone-input"
+      />
+    </div>
+
+    <div class="selected">
+      <h2>Select The country</h2>
+      <select id="country-select">
+        <option value="+216">Tunisia</option>
+        <option value="+1">USA</option>
+        <option value="+31">Netherlands</option>
+        <!-- Add more country codes here -->
+         <option value="+1">Canada</option>
+         <option value="+52">Mexico</option>
+         <option value="+55">Brazil </option>
+         <option value="+49">United Kingdom</option>
+         <option value="+33">France</option>
+         <option value="+49">Germany</option>
+         <option value="+34">Spain</option>
+         <option value="+39">Italy</option>
+         <option value="+7">Russia</option>
+         <option value="+86">China</option>
+         <option value="+81">Japan</option>
+         <option value="+20">Egypt</option>
+         <option value="+212">Morocco</option>
+         <option value="+966">Saudi Arabia</option>
+         <option value="+90">Turkey</option>
+         <option value="+46">Sweden</option>
+         <option value="+32">Belgium</option>
+         <option value="+41">Switzerland</option>
+         <option value="+358">Finland</option>
+         <option value="+30">Greece</option>
+         <option value="+47">Norway</option>
+         <option value="+45">Denmark</option>
+         <option value="+48">Poland</option>
+         <option value="+420">Czech Republic</option>
+         <option value="+385">Croatia</option>
+         <option value="+381">Serbia</option>
+         <option value="+359">Bulgaria</option>
+         <option value="+36">Hungary</option>
+         <option value="+380">Ukraine</option>
+         <option value="+40">Romania</option>
+         <option value="+351">Portugal</option>
+         <option value="+353">Ireland</option>
+         <option value="+354">Iceland</option>
+         <option value="+57">Colombia</option>
+         <option value="+352">Luxembourg</option>
+         <option value="+974">Qatar</option>
+         <option value="+84">Vietnam</option>
+         <option value="+66">Thailand</option>
+         <option value="+595">Paraguay</option>
+         <option value="+51">Peru</option>
+         <!-- <option value=""></option>
+         <option value=""></option>
+         <option value=""></option>
+         <option value=""></option>
+         <option value=""></option>
+         <option value=""></option>
+         <option value=""></option> -->
+      </select>
+    </div>
+
+    <div class="wrapper-btn">
+      <button id="format-btn" class="btns">
+        Get
+      </button>
+    </div>
+
+    <div class="get">
+      <textarea id="output" cols="30" rows="3" readonly placeholder="Formatted number will appear here"></textarea>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
